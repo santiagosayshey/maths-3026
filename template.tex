@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{array}
+\usepackage{enumerate}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
+\usepackage{listings}
+\usepackage{xcolor}
+
+% Page setup
+\geometry{margin=1in}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Samuel Chau - a1799298}
+\lhead{MATHS 3026/4026/7026 - Assignment {{ASSIGNMENT_NUM}}}
+\cfoot{\thepage}
+
+% Code listing style
+\lstset{
+    basicstyle=\ttfamily\small,
+    backgroundcolor=\color{gray!10},
+    frame=single,
+    numbers=left,
+    numberstyle=\tiny,
+}
+
+% Useful commands for crypto
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\MOD}[1]{\;(\text{mod}\;#1)}
+
+\begin{document}
+
+%------------------------
+% COVER PAGE
+%------------------------
+\begin{titlepage}
+    \centering
+    \vspace*{5cm}
+    
+    \Huge
+    \textbf{Assignment {{ASSIGNMENT_NUM}}}
+    
+    \vspace{1cm}
+    
+    \Large
+    MATHS 3026 / 4026 / 7026 Cryptography
+    
+    \vfill
+    
+    \large
+    Samuel Chau\\
+    a1799298\\
+    \vspace{0.5cm}
+    \today
+\end{titlepage}
+
+%------------------------
+% MAIN CONTENT
+%------------------------
+
+{{PROBLEMS}}
+
+\end{document}
